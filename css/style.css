@@ -231,6 +231,8 @@ body{
 		display: flex;
 		justify-content: space-between;
 		gap: 40px 200px;
+		padding-left: 300px;
+		padding-right: 150px;
 	}
 
 	.contacts__info{
@@ -252,11 +254,35 @@ body{
 	.contacts__text{
 		padding-top: 10px;
 		margin-bottom: 20px;
+		max-width: 477px;
 	}
 
 	.contacts__text-rules{
 		padding-top: 77px;
 		font-size: 14px;
+		max-width: 330px;
+	}
+
+	.form{
+		flex-basis: 594px;
+	}
+
+	.form__input{
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+		max-width: 594px;
+	}	
+
+
+
+
+	.footer{
+		text-align: center;
+		padding: 15px 0 90px;
+		font-size: 14px;
+		color: #fff;
+		background-color: #13171C;
 	}
 
 	
